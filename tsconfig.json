@@ -4,7 +4,6 @@
     "types": [
       "nuxt-windicss",
       "@pinia/nuxt",
-      "@nuxt/types",
     ]
   }
 }

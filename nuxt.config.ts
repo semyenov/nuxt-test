@@ -1,8 +1,11 @@
-import { defineNuxtConfig } from 'nuxt3'
+import { defineNuxtConfig } from 'nuxt/config'
 import ViteComponents from 'unplugin-vue-components/vite'
 import IconsResolver from 'unplugin-icons/resolver'
 
 export default defineNuxtConfig({
+  typescript: {
+    shim: false
+  },
   meta: {
     title: 'A Better Nuxt 3 Starter',
   },

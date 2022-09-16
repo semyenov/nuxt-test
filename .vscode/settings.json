@@ -1,7 +1,102 @@
 {
-  "i18n-ally.localesPaths": [
-    "./locales"
+  "cSpell.words": [
+    "Vitesse"
   ],
+  "css.validate": false,
+  "less.validate": false,
+  "scss.validate": false,
+  "i18n-ally.sortKeys": true,
+  "typescript.tsdk": "./node_modules/typescript/lib",
+  "html.format.wrapLineLength": 80,
+  "terminal.integrated.defaultProfile.linux": "zsh",
+  "npm.packageManager": "yarn",
+  "eslint.packageManager": "yarn",
+  "volar.takeOverMode.enabled": "auto",
+  "eslint.probe": [
+    "javascript",
+    "javascriptreact",
+    "typescript",
+    "typescriptreact",
+    "html",
+    "vue",
+    "markdown",
+    "postcss",
+    "vue-postcss",
+    "css"
+  ],
+  "vite.buildCommand": "yarn run build",
+  "vite.devCommand": "yarn run dev",
+  "vite.browserType": "embedded",
+  "windicss.sortOnSave": true,
+  "windicss.enableCodeCompletion": true,
+  "windicss.enableColorDecorators": true,
+  "windicss.enableHoverPreview": true,
+  "html.format.enable": false,
+  "emmet.includeLanguages": {
+    "postcss": "css"
+  },
+  "emmet.syntaxProfiles": {
+    "postcss": "css"
+  },
+  "files.associations": {
+    "*.css": "postcss"
+  },
+  "windicss.includeLanguages": {
+    "vue-postcss": "css",
+    "postcss": "css",
+    "css": "css",
+    "html": "html",
+    "vue": "html"
+  },
+  "prettier.enable": true,
+  "prettier.prettierPath": "./node_modules/prettier",
+  "windicss.colorDecoratorsType": "cube",
+  "volar.preview.transparentGrid": true,
+  "stylelint.packageManager": "yarn",
+  "stylelint.snippet": [
+    "css",
+    "less",
+    "postcss",
+    "scss",
+    "vue-postcss"
+  ],
+  "stylelint.enable": true,
+  "stylelint.reportNeedlessDisables": false,
+  "stylelint.configBasedir": "./node_modules",
+  "eslint.format.enable": true,
+  "eslint.lintTask.enable": true,
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[vue]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[scss]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "editor.tabSize": 2,
+  "editor.rulers": [
+    120
+  ],
+  "editor.formatOnPaste": true,
+  "editor.formatOnSave": true,
+  "prettier.requireConfig": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
+  "i18n-ally.localesPaths": [
+    "locales"
+  ],
+  "i18n-ally.keystyle": "nested",
   "i18n-ally.enabledParsers": [
     "json"
   ]

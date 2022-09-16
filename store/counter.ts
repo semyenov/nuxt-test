@@ -8,7 +8,7 @@ interface CounterState {
 
 export const useCounter = defineStore('counter', {
   state: (): CounterState => ({
-    n: 5,
+    n: 6,
     myRef: ref('hello')
   }),
   actions: {
